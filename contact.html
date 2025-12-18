@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Alemo Engineer</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;700&display=swap"
+        rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="assets/images/logo.png" alt="Alemo Engineer Logo">
+                    </a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header"
+        style="background-color: var(--primary-color); padding: 120px 0 60px; text-align: center; color: white;">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p style="opacity: 0.8; max-width: 600px; margin: 10px auto 0;">Get in touch for quotes, inquiries, or
+                support.</p>
+        </div>
+    </section>
+
+    <!-- Contact Content -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="contact-grid"
+                style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 50px;">
+
+                <!-- Contact Info -->
+                <div>
+                    <h2 class="mb-2">Reach Out to Us</h2>
+                    <div class="info-item" style="margin-bottom: 30px; display: flex; gap: 20px;">
+                        <i class="fas fa-map-marker-alt"
+                            style="font-size: 1.5rem; color: var(--accent-color); margin-top: 5px;"></i>
+                        <div>
+                            <h4 class="mb-1">Address</h4>
+                            <p>Industrial Area, City<br>State, India - 123456</p>
+                        </div>
+                    </div>
+                    <div class="info-item" style="margin-bottom: 30px; display: flex; gap: 20px;">
+                        <i class="fas fa-phone"
+                            style="font-size: 1.5rem; color: var(--accent-color); margin-top: 5px;"></i>
+                        <div>
+                            <h4 class="mb-1">Phone</h4>
+                            <p>+91 98765 43210</p>
+                            <p>+91 12345 67890</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div style="background: var(--bg-off-white); padding: 40px; border-radius: 8px;">
+                    <form action="#" method="POST">
+                        <div class="mb-1">
+                            <label for="name" style="display: block; margin-bottom: 8px; font-weight: 500;">Name</label>
+                            <input type="text" id="name"
+                                style="width: 100%; padding: 12px; border: 1px solid var(--border-color); border-radius: 4px;"
+                                placeholder="Your Name">
+                        </div>
+                        <div class="mb-1">
+                            <label for="email"
+                                style="display: block; margin-bottom: 8px; font-weight: 500;">Email</label>
+                            <input type="email" id="email"
+                                style="width: 100%; padding: 12px; border: 1px solid var(--border-color); border-radius: 4px;"
+                                placeholder="your@email.com">
+                        </div>
+                        <div class="mb-1">
+                            <label for="phone"
+                                style="display: block; margin-bottom: 8px; font-weight: 500;">Phone</label>
+                            <input type="tel" id="phone"
+                                style="width: 100%; padding: 12px; border: 1px solid var(--border-color); border-radius: 4px;"
+                                placeholder="Mobile Number">
+                        </div>
+                        <div class="mb-2">
+                            <label for="message"
+                                style="display: block; margin-bottom: 8px; font-weight: 500;">Message</label>
+                            <textarea id="message" rows="5"
+                                style="width: 100%; padding: 12px; border: 1px solid var(--border-color); border-radius: 4px;"
+                                placeholder="Tell us about your requirements..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="copyright">
+                <p>&copy; 2025 Alemo Engineer. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

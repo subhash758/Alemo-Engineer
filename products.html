@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products | Alemo Engineer</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;700&display=swap"
+        rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="assets/images/logo.png" alt="Alemo Engineer Logo">
+                    </a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html" class="active">Products</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header"
+        style="background-color: var(--primary-color); padding: 120px 0 60px; text-align: center; color: white;">
+        <div class="container">
+            <h1>Our Products</h1>
+            <p style="opacity: 0.8; max-width: 600px; margin: 10px auto 0;">Comprehensive range of high-quality
+                fasteners for every industrial application.</p>
+        </div>
+    </section>
+
+    <!-- Category Filter (Pill Buttons Style inspired by reference) -->
+    <section style="padding: 40px 0 0;">
+        <div class="container text-center">
+            <div style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
+                <a href="#bolts" class="category-pill">BOLTS</a>
+                <a href="#nuts" class="category-pill">NUTS</a>
+                <a href="#screws" class="category-pill">SCREWS</a>
+                <a href="#washers" class="category-pill">WASHERS</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Grid -->
+    <section class="section-padding">
+        <div class="container">
+
+            <!-- Bolts Section -->
+            <div id="bolts" class="category-section mb-2">
+                <h2 class="mb-1" style="border-bottom: 2px solid var(--border-color); padding-bottom: 10px;">Bolts</h2>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <img src="https://images.unsplash.com/photo-1612198188060-c7c2a3b66eae?q=80&w=2070&auto=format&fit=crop"
+                            alt="Hex Bolts">
+                        <div class="content">
+                            <h3>Hex Bolts</h3>
+                            <p>Available in various grades (8.8, 10.9) and finishes.</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="https://images.unsplash.com/photo-1504148455328-c376907d081c?q=80&w=2078&auto=format&fit=crop"
+                            alt="Allen Bolts">
+                        <div class="content">
+                            <h3>Allen Bolts</h3>
+                            <p>Socket head cap screws for precision machinery.</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="https://images.unsplash.com/photo-1535063404286-3a5bd642e9d4?q=80&w=2070&auto=format&fit=crop"
+                            alt="Structural Bolts">
+                        <div class="content">
+                            <h3>Structural Bolts</h3>
+                            <p>Heavy duty bolts for steel construction.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Nuts Section -->
+            <div id="nuts" class="category-section mb-2">
+                <h2 class="mb-1" style="border-bottom: 2px solid var(--border-color); padding-bottom: 10px;">Nuts</h2>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <img src="https://images.unsplash.com/photo-1621252179027-94459b27d3e1?q=80&w=2070&auto=format&fit=crop"
+                            alt="Hex Nuts">
+                        <div class="content">
+                            <h3>Hex Nuts</h3>
+                            <p>Standard and heavy hex nuts for structural use.</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="https://images.unsplash.com/photo-1597423244039-446757b44747?q=80&w=2070&auto=format&fit=crop"
+                            alt="Nyloc Nuts">
+                        <div class="content">
+                            <h3>Nyloc Nuts</h3>
+                            <p>Self-locking nuts to resist vibration.</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="https://images.unsplash.com/photo-1621252179027-94459b27d3e1?q=80&w=2070&auto=format&fit=crop"
+                            alt="Flange Nuts">
+                        <div class="content">
+                            <h3>Flange Nuts</h3>
+                            <p>Nuts with integrated washer for load distribution.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Screws Section -->
+            <div id="screws" class="category-section mb-2">
+                <h2 class="mb-1" style="border-bottom: 2px solid var(--border-color); padding-bottom: 10px;">Screws</h2>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <img src="https://images.unsplash.com/photo-1585314062604-1a357de8b000?q=80&w=2071&auto=format&fit=crop"
+                            alt="Machine Screws">
+                        <div class="content">
+                            <h3>Machine Screws</h3>
+                            <p>Precision screws for electronic and mechanical assembly.</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="https://images.unsplash.com/photo-1504148455328-c376907d081c?q=80&w=2078&auto=format&fit=crop"
+                            alt="Self Tapping Screws">
+                        <div class="content">
+                            <h3>Self Tapping Screws</h3>
+                            <p>Hardened screws for sheet metal and plastics.</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="https://images.unsplash.com/photo-1585314062604-1a357de8b000?q=80&w=2071&auto=format&fit=crop"
+                            alt="Wood Screws">
+                        <div class="content">
+                            <h3>Wood Screws</h3>
+                            <p>Specialized screws for carpentry and wood work.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Washers Section -->
+            <div id="washers" class="category-section mb-2">
+                <h2 class="mb-1" style="border-bottom: 2px solid var(--border-color); padding-bottom: 10px;">Washers
+                </h2>
+                <div class="products-grid"
+                    style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 30px;">
+                    <div class="product-card">
+                        <img src="https://plus.unsplash.com/premium_photo-1664303228186-a61e7dc91597?q=80&w=2029&auto=format&fit=crop"
+                            alt="Plain Washers">
+                        <div class="content">
+                            <h3>Plain Washers</h3>
+                            <p>Flat washers for load distribution.</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="https://images.unsplash.com/photo-1542838132-92c53300491e?q=80&w=1974&auto=format&fit=crop"
+                            alt="Spring Washers">
+                        <div class="content">
+                            <h3>Spring Washers</h3>
+                            <p>Helical spring lock washers.</p>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <img src="https://plus.unsplash.com/premium_photo-1664303228186-a61e7dc91597?q=80&w=2029&auto=format&fit=crop"
+                            alt="Star Washers">
+                        <div class="content">
+                            <h3>Star Washers</h3>
+                            <p>Toothed lock washers for maximum grip.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="copyright">
+                <p>&copy; 2025 Alemo Engineer. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <style>
+        .product-card {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: var(--shadow-sm);
+            transition: var(--transition);
+        }
+
+        .product-card img {
+            height: 200px;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .product-card .content {
+            padding: 20px;
+        }
+
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        /* Category Pill Styles */
+        .category-pill {
+            display: inline-block;
+            padding: 12px 30px;
+            background-color: var(--primary-color);
+            color: white;
+            border-radius: 50px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: var(--transition);
+        }
+
+        .category-pill:hover {
+            background-color: var(--accent-color);
+            color: var(--primary-color);
+            transform: translateY(-2px);
+        }
+    </style>
+</body>
+
+</html>
